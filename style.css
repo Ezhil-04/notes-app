@@ -11,10 +11,9 @@
 body{
    
     overflow-x: hidden;
-    
+    overflow-y: auto;
     width: 100vw;
-  min-height: 100vh;
-  max-height: auto;
+height: 100vh;
   /* max-height: fit-content; */
     padding: 1rem;
     background: linear-gradient(to left,rgb(188, 88, 235),skyblue,pink);
@@ -101,6 +100,7 @@ width: 100%;
 .box{
     display: flex;
     flex-wrap: wrap;
+
     column-gap: 9px;
     width: 100%;
     height: 88vh;
@@ -124,6 +124,7 @@ border-radius: 10px;
     /* background-color: rgb(221, 30, 30); */
     display: flex;
     flex-wrap: wrap;
+
    align-content: start;
    row-gap: 30px;
    overflow-y: scroll;
@@ -156,4 +157,58 @@ font-family:Verdana, Geneva, Tahoma, sans-serif;
     width: 80%;
     background-color: aliceblue;
 
+}
+@media only screen and (max-width:600px)  {
+    
+    .box{ 
+
+        /* background-color: blue; */
+       
+    }
+    .box1{
+        margin-top:2rem ;
+        width:23rem ;
+        /* position: relative; */
+       padding: 0%;
+        /* background-color: crimson; */
+        height:17rem;
+    }
+    .box2{
+        /* background-color: cyan; */
+        height: 23rem;
+    }
+    .createbox{
+        margin-top: 10rem;
+  margin: 2.8%;
+        /* background-color: darkseagreen; */
+        /* background-color: coral; */
+        width: 95%;
+        height: 60%;
+
+    }
+    #textnote{
+        border-radius: 5px;
+      margin: 0%;
+        min-height: 5rem;
+      max-height: 5rem;
+        width:100% ;
+        margin-bottom: 0%
+    }
+    #add{
+        border-radius: 10px;
+      margin-right:16rem ;
+        top: 13rem;
+        right: 15rem;
+        height: 2.5rem;
+    }
+.btn{
+    margin: 2.8%;
+    margin-bottom: 3rem;
+    /* background-color: green; */
+}
+.title{
+    /* background-color: darkorchid; */
+    margin-left: 6rem;
+}
+    
 }

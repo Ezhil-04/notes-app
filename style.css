@@ -146,17 +146,34 @@ font-family:Verdana, Geneva, Tahoma, sans-serif;
     
 }
 .boxes{
-
+position: relative;
     white-space: pre-wrap;
     padding: .4rem;
     font-size: 1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius:15px ;
-    height: 5.5rem;
-    overflow-y: auto;
+    min-height: 5.5rem;
+    max-height: auto;
+
     width: 80%;
     background-color: aliceblue;
 
+}
+#para{
+    border: none;
+    outline: none;
+}
+#delete{
+    /* padding: 3rem; */
+/* background-color: aqua; */
+cursor: pointer;
+    margin: 5px;
+    z-index: 3;
+    float: right;
+    
+ 
+  
+height: 1.5rem;
 }
 @media only screen and (max-width:600px)  {
     
@@ -175,7 +192,7 @@ font-family:Verdana, Geneva, Tahoma, sans-serif;
     }
     .box2{
         /* background-color: cyan; */
-        height: 23rem;
+        height: 22rem;
     }
     .createbox{
         margin-top: 10rem;

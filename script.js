@@ -73,4 +73,4 @@ document.addEventListener("keydown",e=>{
         e.preventDefault();
     }
 })
-box2.removeChild()
+

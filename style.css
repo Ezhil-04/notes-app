@@ -113,6 +113,7 @@ width: 100%;
     /* background-color: chartreuse; */
 }
 .box2{
+      margin-left: 3rem;
 background-color: rgba(240, 248, 255, 0.416);
 backdrop-filter: blur(25px);
 border-radius: 10px;

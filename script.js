@@ -66,11 +66,10 @@ function getItem()
 function updatestorage(){
     localStorage.setItem("data",box2.innerHTML)
 }
-
+// localStorage.setItem("data",box2.innerHTML);
 document.addEventListener("keydown",e=>{
     if(e.key==="Enter"){
         document.execCommand("insertLineBreak")
         e.preventDefault();
     }
 })
-
